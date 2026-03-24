@@ -1,7 +1,8 @@
 # b29-shell-scripting-assgn
-- Fork this repository
-- Develop your shell script on your forked repo
-- Raise a Pull Request once you are done
-- Deadline - 25th March EOD
+Directory Backup Script
 
-All the best !!! :)
+Usage:
+./backup.sh [-N N] [-f # Store as folder] "foldername"
+
+Stores data in .backups directory
+Maximum N=10 (by default)
